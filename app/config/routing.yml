@@ -1,0 +1,3 @@
+mmi_hello:
+    resource: "@MmiHelloBundle/Controller/"
+    type:     annotation
