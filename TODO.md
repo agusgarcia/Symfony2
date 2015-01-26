@@ -8,7 +8,7 @@
 
     1. Chargement des vendors via la commande "php composer.phar update"
 
-    2. Création de la base de données "php app/console doctrine:schema:create"
+    2. Création de la base de données "php app/console doctrine:database:create"
 
     3. Ouvrir le fichier src/Mmi/Bundle/HelloBundle/Controller/DefaultController.php pour analyser le code source
 
