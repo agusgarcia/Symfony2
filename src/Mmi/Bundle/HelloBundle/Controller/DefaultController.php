@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/hello", name="hello_homepage")
+     * @Route("/", name="hello_homepage")
      * @Method({"GET"})
      */
     public function indexAction(Request $request)
