@@ -8,13 +8,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-/**
- * @Route("/contact")
- */
 class ContactController extends Controller
 {
     /**
-     * @Route("/raw", name="hello_contact_raw")
+     * @Route("/contact/raw", name="hello_contact_raw")
      * @Method({"GET"})
      * 
      * Retourne une réponse avec un formulaire de contact html.
@@ -49,7 +46,7 @@ class ContactController extends Controller
     }
     
     /**
-     * @Route("/template", name="hello_contact_template")
+     * @Route("/contact/template", name="hello_contact_template")
      * @Method({"GET"})
      * 
      * Retourne une réponse avec un formulaire de contact html chargé depuis un fichier de template.
