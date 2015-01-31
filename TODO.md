@@ -1,9 +1,9 @@
-* [1]: Forker le projet https://github.com/jeromefath/Symfony2 depuis l'interface de GitHub.
+* [1] Forker le projet https://github.com/jeromefath/Symfony2 depuis l'interface de GitHub.
 
-* [2]: Placez vous à la racine de votre répertoire de travail (www) depuis l'invite de commande. 
+* [2] Placez vous à la racine de votre répertoire de travail (www) depuis l'invite de commande. 
 Chargez les sources de votre fork avec la commande "git clone https://github.com/{username}/Symfony2.git Symfony2_Fork"
 
-* [3]: Faire tourner l'application forkée sur votre poste de travail :
+* [3] Faire tourner l'application forkée sur votre poste de travail :
 
     1. Chargement des vendors via la commande "php composer.phar update"
 
@@ -18,8 +18,7 @@ Voici un tutoriel permettant d'apprendre les commandes de base : http://openclas
 Exercices
 =======================
 
-=======================
-* [1]: Créer un nouveau bundle nommé MmiBlogBundle => servira à implémenter les fonctionnalités de votre blog
+* [1] Créer un nouveau bundle nommé MmiBlogBundle => servira à implémenter les fonctionnalités de votre blog
 
 Lancez la commande "php app/console generate:bundle" depuis l'invite de commande.
         
@@ -32,15 +31,13 @@ Configuration format : annotation
 Utilisez les valeurs par defaut pour le reste des questions.
 Votre nouveau bundle est désormais disponible et préconfiguré, vous allez pouvoir coder.
 
-=======================
-* [2]: Créer un layout pour votre MmiBlogBundle => servira à définir la mise en page html de votre blog
+* [2] Créer un layout pour votre MmiBlogBundle => servira à définir la mise en page html de votre blog
 
 Héritez du layout de MmiBoostrapBundle pour faciliter et améliorer la mise en page html/css en utilisant bootstrap.
 
 Ajoutez une feuille de style au layout pour pouvoir débuter l'intégration css de votre blog.
 
-=======================
-* [3]: Créer une homepage pour votre blog
+* [3] Créer une homepage pour votre blog
 
 Utilisez le DefaultController ajouté lors de la création du MmiBlogBundle depuis l'invite de commande.
 
