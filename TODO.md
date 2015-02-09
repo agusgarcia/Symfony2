@@ -35,7 +35,7 @@ Votre nouveau bundle est désormais disponible et préconfiguré, vous allez pou
 
 Héritez du layout de MmiBoostrapBundle pour faciliter et améliorer la mise en page html/css en utilisant bootstrap.
 
-Ajoutez une feuille de style au layout pour pouvoir débuter l'intégration css de votre blog.
+Ajoutez une feuille de style au layout pour pouvoir débuter l'intégration css de votre blog. (en layout.html.twig ???)
 
 * [3] Créer une homepage pour votre blog
 
